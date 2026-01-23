@@ -107,6 +107,33 @@ section {
   transform: translateY(-2px);
 }
 
+.about {
+  background: #f7f1f3;
+  height: 100vh;
+}
+
+.about-content p {
+  background: #f4c0d1;
+  color: #4e342e;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #61342c;
+  text-shadow: 0 0 8px #f39fbb;
+}
+
 footer {
   background: #3e2723;
   color: #fce4ec;
