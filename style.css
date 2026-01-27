@@ -59,6 +59,8 @@ section {
   max-width: 1200px;
 }
 
+/* HERO  */
+
 .hero {
   background: linear-gradient(135deg, #ffecee 0%, #f49abb 100%);
   color: white;
@@ -107,13 +109,55 @@ section {
   transform: translateY(-2px);
 }
 
+/* ABOUT */
+
 .about {
   background: #f7f1f3;
   height: 100vh;
 }
 
-.about-content p {
-  background: #f4c0d1;
+.about h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  padding-left: 150px;
+  margin-bottom: 1rem;
+  color: #61342c;
+  text-shadow: 0 0 8px #f39fbb;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.about-content .profile-img {
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border: 5px solid #f9ccdb;
+  box-shadow: 0 10px 30px #f9ccdb;
+  transition: transform 0.3s ease;
+  animation: fadeInScale 1s ease;
+}
+
+.about-content .profile-img:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 15px 40px #f9ccdb;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  background: #f9ccdb;
   color: #4e342e;
   border-radius: 30px;
   padding: 1rem 2rem;
@@ -123,17 +167,11 @@ section {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
+  margin-bottom: 1rem;
   line-height: 1.8;
 }
 
-.about h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #61342c;
-  text-shadow: 0 0 8px #f39fbb;
-}
-
+/* CONTACT */
 .contact {
   background: linear-gradient(135deg, #f5aec8 50%, #ffffff 100%);
 }
@@ -200,10 +238,34 @@ footer {
   }
 
   .hero p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-  h2 {
+  .about h2 {
     font-size: 2rem;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    gap: 1rem;
+  }
+
+  .about-text p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .about-content .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+    text-align: center;
   }
 }
