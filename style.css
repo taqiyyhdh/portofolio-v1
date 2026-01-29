@@ -332,6 +332,15 @@ footer {
     gap: 1rem;
   }
 
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
   .hero h1 {
     font-size: 2rem;
   }
