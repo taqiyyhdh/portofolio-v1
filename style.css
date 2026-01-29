@@ -112,7 +112,13 @@ section {
 /* ABOUT */
 
 .about {
-  background: #f7f1f3;
+  background:
+    linear-gradient(
+      to right,
+      rgba(250, 205, 225, 0.968),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("bg-about.jpg");
   height: 100vh;
 }
 
@@ -351,6 +357,11 @@ footer {
     font-size: 1rem;
   }
 
+  .about {
+    background:
+      linear-gradient(rgba(250, 205, 225, 0.968), rgba(255, 255, 255, 0.7)),
+      url("bg-about.jpg");
+  }
   .about h2 {
     font-size: 2rem;
     text-align: center;
