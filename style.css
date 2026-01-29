@@ -171,6 +171,7 @@ section {
   margin: 0 auto;
   margin-bottom: 1rem;
   line-height: 1.8;
+  box-shadow: 0 4px 14px rgba(251, 116, 152, 0.733);
 }
 
 .skills-logos {
@@ -180,6 +181,7 @@ section {
 
 .skills-logos h3 {
   color: #4e342e;
+  text-shadow: 0 0 8px #f39fbb;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -364,7 +366,8 @@ footer {
 
   .about-text p {
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
+    padding: 1rem 1rem;
   }
 
   .about-content .profile-img {
@@ -378,11 +381,12 @@ footer {
 
   .skills-logos h3 {
     font-size: 1rem;
+    margin-bottom: 10px;
   }
 
   .tech-logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   .contact h2 {
